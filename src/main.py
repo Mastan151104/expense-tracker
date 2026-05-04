@@ -15,7 +15,7 @@ def show_menu() -> None:
 
 
 def main() -> None:
-    expenses = load_expenses()
+    expenses = load_expenses()  
 
     while True:
         show_menu()
